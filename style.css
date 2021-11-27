@@ -1,0 +1,33 @@
+body {
+    height: 96vh;
+    width: 96vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(52, 165, 52);
+    box-sizing: border-box;
+}
+
+.style-input {
+    width: 380px;
+    height: 30px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.style-btn {
+    padding: 5px 20px;
+    background-color: rgb(62, 136, 66);
+    border-radius: 5px;
+    font-size: 25px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.style-canvas {
+    border: none;
+    background-color: lightgreen;
+}

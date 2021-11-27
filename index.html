@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div style="display: flex;gap: 25px;">
+
+        <div style="align-self: center;text-align: center;">
+            <h1>SNAKE GAME!</h1>
+            <div><input class="style-input" id="inputNome" placeholder=" Jogador, seu nome ?"></div>
+            <div> <input type="number" class="style-input" id="input1" placeholder=" Velocidade. Ex: 500 (Lento), 100 (Rápido)"></div>
+            <div> <button class="style-btn">Play</button></div>
+            <div style="margin-top: 30px;">
+                <h3 style="text-align: center;" id="pontos"></h3>
+            </div>
+        </div>
+
+        <div>
+            <div class="style-canvas">
+                <canvas id="snake" width="512" height="512"></canvas>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
