@@ -1,6 +1,6 @@
-#Recriando o jogo da cobrinha com JavaScript
+# Recriando o jogo da cobrinha com JavaScript
 
-##SNAKE GAME DESÁFIO PLATAFORMA DIO...
+## SNAKE GAME DESÁFIO PLATAFORMA DIO...
 
 - Entrada para nome no jogador.
 - Entrada para definir velocidade.
